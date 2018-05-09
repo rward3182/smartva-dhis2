@@ -21,9 +21,9 @@ Ubuntu installation (tested with 16.04 LTS)
 
 .. code:: bash
 
-    # apt update
-    # apt install python3
-    # apt install python3-venv python3-pip
+    # sudo apt update
+    # sudo apt install python3
+    # sudo apt install python3-venv python3-pip
 
     Change to a non-root user
     $ pip3 install pipenv --user
@@ -38,7 +38,7 @@ Refer to the :doc:`/configuration` page first before running it.
 
 .. code:: bash
 
-    cd /path/to/repo
+    cd /path/to/repo (Example cd smartva-dhis2)
     pipenv run python -m smartvadhis2 [--options]
 
 Options are:
