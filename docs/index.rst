@@ -24,8 +24,8 @@ It also checks DHIS2 for duplicate events (by Study ID Number) and auto-assigns 
    :maxdepth: 2
    :caption: Contents
 
+   Configuration of DHIS2 <configuration>
    Installation <installation>
-   Configuration <configuration>
    Local database <local_database>
    Components <components>
    Development <development>
