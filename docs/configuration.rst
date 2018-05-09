@@ -1,4 +1,4 @@
-Configuration
+DHIS2 Configuration
 ==============
 
 
@@ -6,6 +6,8 @@ DHIS2 metadata
 --------------
 
 All metadata in DHIS2 is required to be configured before running this application.
+
+This process will set up the VA module in the DHIS2 server. This module is required to be set up before VA data can be pushed to DHIS2.
 
 .. note:: The Organisation Unit hierarchy in DHIS2 should be aligned with the VA Questionnaire.
           This application assumes it is set up correctly (however it auto-assigns the Organisation Unit to the program if not already assigned).
